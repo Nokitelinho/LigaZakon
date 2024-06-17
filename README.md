@@ -1,26 +1,25 @@
-LigaZakon
+<h4>LigaZakon</h4>
 
-How to run:
-char[] source = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
-char[] find = {'b', 'c', 'd'};
-char[] replace = {'0', '1', '2','3'};
-
-var result = new CharArrayReplacement(source, find, replace).replaceSequence();
-System.out.println(result);
-
-How to test:
-
-char[] source = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
-char[] find = {'b', 'c'};
-char[] replace = {'0', '1', '2'};
-
-Expected result: a012defgh
-
-
-char[] source = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
-char[] find = {'b', 'c', 'd'};
-char[] replace = {'0', '1', '2','3'};
-
-Expected result: a0123efgh
+<h4>How to run:</h4>
+char[] source = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};<br>
+char[] find = {'b', 'c', 'd'};<br>
+char[] replace = {'0', '1', '2','3'};<br>
+<br>
+var result = new CharArrayReplacement(source, find, replace).replaceSequence();<br>
+System.out.println(result);<br>
+<br>
+<h4>How to test:</h4>
+<br>
+char[] source = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};<br>
+char[] find = {'b', 'c'};<br>
+char[] replace = {'0', '1', '2'};<br>
+<br>
+Expected result: a012defgh<br>
+<br>
+char[] source = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};<br>
+char[] find = {'b', 'c', 'd'};<br>
+char[] replace = {'0', '1', '2','3'};<br>
+<br>
+Expected result: a0123efgh<br>
 
 
